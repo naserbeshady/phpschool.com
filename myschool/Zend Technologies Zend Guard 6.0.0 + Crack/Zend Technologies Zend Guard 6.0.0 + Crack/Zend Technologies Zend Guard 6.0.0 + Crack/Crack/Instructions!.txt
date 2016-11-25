@@ -1,0 +1,3 @@
+Copy all included files to the following path:
+
+plugins\com.zend.guard.core.resources.win32.x86_6.0.0.201305051318\resources

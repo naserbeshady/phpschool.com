@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<configuration date="2016/09/25" author="e.World Technology Ltd.">
+<project id="{AF2D3546-5077-4F8E-BD17-F7DECF1AA720}" file="" name="project2" product="PHPReportMaker" version="9.0" datetime="2016/09/25 15:07:36" languagefolder="phprptlang" userlevel="-2,&quot;Anonymous&quot;,0;">
+<table id="admin" name="admin" caption="admin" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="attendance" name="attendance" caption="attendance" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="book" name="book" caption="book" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="ci_sessions" name="ci_sessions" caption="ci sessions" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="class" name="class" caption="class" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="class_routine" name="class_routine" caption="class routine" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="document" name="document" caption="document" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="dormitory" name="dormitory" caption="dormitory" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="exam" name="exam" caption="exam" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="exam_routine" name="exam_routine" caption="exam routine" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="expense_category" name="expense_category" caption="expense category" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="grade" name="grade" caption="grade" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="invoice" name="invoice" caption="invoice" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="language" name="language" caption="language" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="mark" name="mark" caption="mark" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="message" name="message" caption="message" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="message_thread" name="message_thread" caption="message thread" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="noticeboard" name="noticeboard" caption="noticeboard" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="parent" name="parent" caption="parent" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="payment" name="payment" caption="payment" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="section" name="section" caption="section" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="settings" name="settings" caption="settings" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="student" name="student" caption="student" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="subject" name="subject" caption="subject" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="teacher" name="teacher" caption="teacher" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="teacherroutine" name="teacherroutine" caption="teacherroutine" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="totalexpense" name="totalexpense" caption="totalexpense" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="totalinvoice" name="totalinvoice" caption="totalinvoice" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="transport" name="transport" caption="transport" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="_62362C64562764464A_62764464563562763164A641" name="أجمالي المصاريف" caption="أجمالي المصاريف" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+</project></configuration>

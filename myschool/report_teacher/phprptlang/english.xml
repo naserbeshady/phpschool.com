@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ew-language date="2016/9/25" version="9.0.2" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+	<locale>
+		<phrase id="locale" value=""/><!-- *** system locale for this language -->
+		<phrase id="use_system_locale" value="1"/><!-- *** change to "0" to disable system locale and use the following settings *** -->
+		<phrase id="decimal_point" value="."/>
+		<phrase id="thousands_sep" value=","/>
+		<phrase id="mon_decimal_point" value="."/>
+		<phrase id="mon_thousands_sep" value=","/>
+		<phrase id="currency_symbol" value="$"/>
+		<phrase id="positive_sign" value=""/>
+		<phrase id="negative_sign" value="-"/>
+		<phrase id="frac_digits" value="2"/>
+		<phrase id="p_cs_precedes" value="1"/>
+		<phrase id="p_sep_by_space" value="0"/>
+		<phrase id="n_cs_precedes" value="1"/>
+		<phrase id="n_sep_by_space" value="0"/>
+		<phrase id="p_sign_posn" value="3"/>
+		<phrase id="n_sign_posn" value="3"/>
+		<phrase id="time_zone" value="US/Pacific"/><!-- *** used for multi-language site only *** -->
+	</locale>
+	<global>
+		<phrase id="allrecords" value="All"/>
+		<phrase id="alwaysask" value="Always ask for my user name and password"/>
+		<phrase id="autologin" value="Auto login until I logout explicitly"/>
+		<phrase id="backtologin" value="Back to Login Page"/>
+		<phrase id="booleanno" value="No"/>
+		<phrase id="booleanyes" value="Yes"/>
+		<phrase id="breadcrumbdivider" value="/"/>
+		<phrase id="browsernoflashsupport" value="Your browser does not support Flash player." client="1"/>
+		<phrase id="buttonexport" value="Export" class="icon-export ewIcon"/><!-- v8 -->
+		<phrase id="cancel" value="Cancel" client="1"/><!-- v8 -->
+		<phrase id="chartorder" value="Order by"/>
+		<phrase id="chartorderxasc" value="Labels ASC"/>
+		<phrase id="chartorderxdesc" value="Labels DESC"/>
+		<phrase id="chartorderyasc" value="Values ASC"/>
+		<phrase id="chartorderydesc" value="Values DESC"/>
+		<phrase id="clickrecaptcha" value="Please click reCAPTCHA" client="1"/><!-- v9 -->
+		<phrase id="clicktodrilldown" value="Click to drill down"/>
+		<phrase id="countselected" value="%s selected" client="1"/><!-- v9 -->
+		<phrase id="currentfilters" value="Current filters:"/>
+		<phrase id="deletefilter" value="Delete filter"/><!-- v8 -->
+		<phrase id="deletefilterconfirm" value="Delete filter %s?" client="1"/><!-- v8 -->
+		<phrase id="drilldownallrecords" value="All records"/>
+		<phrase id="drilldownfilters" value="Drill down filters:"/>
+		<phrase id="enterfiltername" value="Enter filter name" client="1"/><!-- v8 -->
+		<phrase id="entersenderemail" value="Please enter sender email" client="1"/>
+		<phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+		<phrase id="enterrecipientemail" value="Please enter recipient email" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+		<phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+		<phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+		<phrase id="entersubject" value="Please enter subject" client="1"/>
+		<phrase id="emailformsender" value="From"/>
+		<phrase id="emailformrecipient" value="To"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subject"/>
+		<phrase id="emailformmessage" value="Message"/>
+		<phrase id="emailformcontenttype" value="Send as"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="emptylabel" value="(Empty)"/>
+		<phrase id="enterpassword" value="Please enter password" client="1"/>
+		<phrase id="enterpwd" value="Please enter password" client="1"/>
+		<phrase id="entersearchcriteria" value="Please enter search criteria"/>
+		<phrase id="enteruid" value="Please enter user ID" client="1"/>
+		<phrase id="entervalidatecode" value="Please enter the validation code shown" client="1"/>
+		<phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later."/>
+		<phrase id="exportchart" value="Exporting chart: " client="1"/>
+		<phrase id="exportchartdata" value="Exporting chart data" client="1"/>
+		<phrase id="exportcharterror" value="Failed to export chart: " client="1"/>
+		<phrase id="exportingchart" value="Exporting chart (%c of %t), please wait..." client="1"/>
+		<phrase id="exporttoemail" value="Email" class="icon-email ewIcon" client="1"/><!-- v8 -->
+		<phrase id="exporttoexcel" value="Export to Excel" class="icon-excel ewIcon"/><!-- v8 -->
+		<phrase id="exporttopdf" value="Export to PDF" class="icon-pdf ewIcon"/><!-- v8 -->
+		<phrase id="exporttoword" value="Export to Word" class="icon-word ewIcon"/><!-- v8 -->
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="filter" value="Filter"/><!-- v8 -->
+		<phrase id="filtername" value="Filter name" client="1"/><!-- v8 -->
+		<phrase id="filters" value="Filters" class="icon-filter ewIcon"/><!-- v8 -->
+		<phrase id="homepage" value="Home" class="glyphicon glyphicon-home ewIcon"/><!-- v8 -->
+		<phrase id="incorrectcreditcard" value="Incorrect credit card number" client="1"/>
+		<phrase id="incorrectdateymd" value="Incorrect date, format = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Incorrect date, format = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Incorrect date, format = dd%smm%syyyy"/>
+		<phrase id="incorrectshortdateymd" value="Incorrect date, format = yy%smm%sdd"/>
+		<phrase id="incorrectshortdatemdy" value="Incorrect date, format = mm%sdd%syy"/>
+		<phrase id="incorrectshortdatedmy" value="Incorrect date, format = dd%smm%syy"/>
+		<phrase id="incorrectemail" value="Incorrect email" client="1"/>
+		<phrase id="incorrectfield" value="Incorrect field" client="1"/>
+		<phrase id="incorrectfloat" value="Incorrect floating point number" client="1"/>
+		<phrase id="incorrectguid" value="Incorrect GUID" client="1"/>
+		<phrase id="incorrectinteger" value="Incorrect integer" client="1"/>
+		<phrase id="incorrectphone" value="Incorrect phone number" client="1"/>
+		<phrase id="incorrectrange" value="Number must be between %1 and %2" client="1"/>
+		<phrase id="incorrectregexp" value="Regular expression not matched" client="1"/>
+		<phrase id="incorrectssn" value="Incorrect Social Security Number" client="1"/>
+		<phrase id="incorrecttime" value="Incorrect time (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Incorrect ZIP code" client="1"/>
+		<phrase id="invalidpostrequest" value="Invalid post request"/><!-- v8 -->
+		<phrase id="invaliduidpwd" value="Incorrect user ID or password"/>
+		<phrase id="language" value="Language"/>
+		<phrase id="loading" value="Loading%s..." client="1"/>
+		<phrase id="login" value="Login"/>
+		<phrase id="loginoptions" value="Options"/><!-- v8 -->
+		<phrase id="loginpage" value="Login Page"/>
+		<phrase id="logout" value="Logout"/>
+		<phrase id="messageok" value="OK" client="1"/><!-- v9 -->
+		<phrase id="mobilemenu" value="Menu"/>
+		<phrase id="monthjan" value="Jan"/>
+		<phrase id="monthfeb" value="Feb"/>
+		<phrase id="monthmar" value="Mar"/>
+		<phrase id="monthapr" value="Apr"/>
+		<phrase id="monthmay" value="May"/>
+		<phrase id="monthjun" value="Jun"/>
+		<phrase id="monthjul" value="Jul"/>
+		<phrase id="monthaug" value="Aug"/>
+		<phrase id="monthsep" value="Sep"/>
+		<phrase id="monthoct" value="Oct"/>
+		<phrase id="monthnov" value="Nov"/>
+		<phrase id="monthdec" value="Dec"/>
+		<phrase id="next" value="Next"/>
+		<phrase id="nopermission" value="You do not have permission to access the page."/>
+		<phrase id="norecord" value="No records found"/>
+		<phrase id="noreportorcharts" value="No report or charts is selected for generation. Please check your report/charts settings."/>
+		<phrase id="nodistinctcolvals" value="No distinct column values for sql: "/>
+		<phrase id="nulllabel" value="(Null)"/>
+		<phrase id="of" value="of"/>
+		<phrase id="page" value="Page"/>
+		<phrase id="pagerfirst" value="First"/>
+		<phrase id="pagerlast" value="Last"/>
+		<phrase id="pagernext" value="Next"/>
+		<phrase id="pagerprevious" value="Previous"/>
+		<phrase id="password" value="Password"/>
+		<phrase id="pleaseselect" value="Please Select" client="1"/><!-- v9 -->
+		<phrase id="popupall" value="(All)" client="1"/>
+		<phrase id="popupfrom" value="From" client="1"/>
+		<phrase id="popupnovalue" value="No value selected!" client="1"/>
+		<phrase id="popupselect" value="Please Select" client="1"/>
+		<phrase id="popupto" value="To" client="1"/>
+		<phrase id="prev" value="Prev"/>
+		<phrase id="primarykeyunspecified" value="Primary key unspecified"/>
+		<phrase id="printerfriendly" value="Printer Friendly" class="icon-print ewIcon"/><!-- v8 -->
+		<phrase id="group" value="Groups"/>
+		<phrase id="groupsperpage" value="Groups per page"/>
+		<phrase id="qtr1" value="1st Quarter"/>
+		<phrase id="qtr2" value="2nd Quarter"/>
+		<phrase id="qtr3" value="3rd Quarter"/>
+		<phrase id="qtr4" value="4th Quarter"/>
+		<phrase id="record" value="Records"/>
+		<phrase id="recordsperpage" value="Records per page"/>
+		<phrase id="report" value="Reports"/>
+		<phrase id="reset" value="Reset"/>
+		<phrase id="resetallfilter" value="Reset all filters" class="icon-reset-search ewIcon"/><!-- v8 -->
+		<phrase id="resetsearch" value="Reset search criteria"/>
+		<phrase id="rptavg" value="AVG"/>
+		<phrase id="rptcnt" value="COUNT"/>
+		<phrase id="rptdtlrec" value=" detail records"/>
+		<phrase id="rptgrandsummary" value="Grand Summary"/>
+		<phrase id="rptmax" value="MAX"/>
+		<phrase id="rptmin" value="MIN"/>
+		<phrase id="rptpagesummary" value="Page Summary"/>
+		<phrase id="rptsum" value="SUM"/>
+		<phrase id="rptsumhead" value="Summary for %c: %v"/><!-- v9 -->
+		<phrase id="savecurrentfilter" value="Save current filter"/>
+		<phrase id="saveusername" value="Save my user name"/>
+		<phrase id="search" value="Search"/>
+		<phrase id="searchbtn" value="Filter Panel" class="glyphicon glyphicon-search ewIcon"/>
+		<phrase id="selectall" value="(All)"/>
+		<phrase id="sendemailbtn" value="Send" client="1"/>
+		<phrase id="sendemailsuccess" value="Email sent successfully" client="1"/>
+		<phrase id="sessionwillexpire" value="Your session will expire in %s seconds. Click OK to continue your session." client="1"/><!-- v9 -->
+		<phrase id="sessionexpired" value="Your session has expired." client="1"/><!-- v9 -->
+		<phrase id="showall" value="Show all"/>
+		<phrase id="summary" value="Summary"/>
+		<phrase id="tasks" value="Tasks"/>
+		<phrase id="to" value="to"/>
+		<phrase id="top" value="Top"/>
+		<phrase id="total" value="Total"/>
+		<phrase id="useradministrator" value="Administrator" client="1"/><!-- v9 -->
+		<phrase id="useranonymous" value="Anonymous" client="1"/><!-- v9 -->
+		<phrase id="userdefault" value="Default" client="1"/><!-- v9 -->
+		<phrase id="username" value="User name"/>
+		<phrase id="valuenotexist" value="Value does not exist" client="1"/><!-- v8 -->
+		<phrase id="viewimage" value="Click to view image"/><!-- v8 -->
+		<phrase id="week" value="Week"/>
+		<phrase id="year" value="Year"/>
+		<!-- Search Operators -->
+		<phrase id="=" value="&amp;nbsp;"/><!-- v9 -->
+		<phrase id="equal" value="="/><!-- v9 -->
+		<phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;"/>
+		<phrase id="&lt;" value="&amp;lt;"/>
+		<phrase id="&lt;=" value="&amp;lt;="/>
+		<phrase id="&gt;" value="&amp;gt;"/>
+		<phrase id="&gt;=" value="&amp;gt;="/>
+		<phrase id="like" value="contains"/>
+		<phrase id="not like" value="not contains"/>
+		<phrase id="starts with" value="starts with"/>
+		<phrase id="ends with" value="ends with"/>
+		<phrase id="is null" value="is null"/>
+		<phrase id="is not null" value="is not null"/>
+		<phrase id="between" value="between"/>
+		<phrase id="and" value="and"/>
+		<phrase id="or" value="or"/>
+		<!-- Menu Prefix/Suffix -->
+		<phrase id="simplereportmenuitemprefix" value=""/>
+		<phrase id="simplereportmenuitemsuffix" value=""/>
+		<phrase id="detailsummaryreportmenuitemprefix" value=""/>
+		<phrase id="detailsummaryreportmenuitemsuffix" value=""/>
+		<phrase id="crosstabreportmenuitemprefix" value=""/>
+		<phrase id="crosstabreportmenuitemsuffix" value=""/>
+		<phrase id="chartreportmenuitemprefix" value=""/>
+		<phrase id="chartreportmenuitemsuffix" value=""/>
+		<!-- Advanced Filter -->
+		<phrase id="future" value="Future"/>
+		<phrase id="past" value="Past"/>
+		<phrase id="last14days" value="Last 14 days"/>
+		<phrase id="last30days" value="Last 30 days"/>
+		<phrase id="last7days" value="Last 7 days"/>
+		<phrase id="next14days" value="Next 14 days"/>
+		<phrase id="next30days" value="Next 30 days"/>
+		<phrase id="next7days" value="Next 7 days"/>
+		<phrase id="today" value="Today"/>
+		<phrase id="tomorrow" value="Tomorrow"/>
+		<phrase id="yesterday" value="Yesterday"/>
+		<phrase id="lastmonth" value="Last month"/>
+		<phrase id="nextmonth" value="Next month"/>
+		<phrase id="thismonth" value="This month"/>
+		<phrase id="lasttwoweeks" value="Last two weeks"/>
+		<phrase id="lastweek" value="Last week"/>
+		<phrase id="nexttwoweeks" value="Next two weeks"/>
+		<phrase id="nextweek" value="Next week"/>
+		<phrase id="thisweek" value="This week"/>
+		<phrase id="lastyear" value="Last year"/>
+		<phrase id="nextyear" value="Next year"/>
+		<phrase id="thisyear" value="This year"/>
+	</global>
+	<project><phrase id="bodytitle" value="توزيع حصص المدرسين"/>
+<phrase id="footertext" value="&amp;copy;2016 e.World Technology Ltd. All rights reserved."/>
+<menu id="1"><phrase id="menutext" value="admin"/>
+</menu>
+<menu id="2"><phrase id="menutext" value="attendance"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="book"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="ci sessions"/>
+</menu>
+<menu id="5"><phrase id="menutext" value="class"/>
+</menu>
+<menu id="6"><phrase id="menutext" value="class routine"/>
+</menu>
+<menu id="7"><phrase id="menutext" value="document"/>
+</menu>
+<menu id="8"><phrase id="menutext" value="dormitory"/>
+</menu>
+<menu id="9"><phrase id="menutext" value="exam"/>
+</menu>
+<menu id="10"><phrase id="menutext" value="exam routine"/>
+</menu>
+<menu id="11"><phrase id="menutext" value="expense category"/>
+</menu>
+<menu id="12"><phrase id="menutext" value="grade"/>
+</menu>
+<menu id="13"><phrase id="menutext" value="invoice"/>
+</menu>
+<menu id="14"><phrase id="menutext" value="language"/>
+</menu>
+<menu id="15"><phrase id="menutext" value="mark"/>
+</menu>
+<menu id="16"><phrase id="menutext" value="message"/>
+</menu>
+<menu id="17"><phrase id="menutext" value="message thread"/>
+</menu>
+<menu id="18"><phrase id="menutext" value="noticeboard"/>
+</menu>
+<menu id="19"><phrase id="menutext" value="parent"/>
+</menu>
+<menu id="20"><phrase id="menutext" value="payment"/>
+</menu>
+<menu id="21"><phrase id="menutext" value="section"/>
+</menu>
+<menu id="22"><phrase id="menutext" value="settings"/>
+</menu>
+<menu id="23"><phrase id="menutext" value="student"/>
+</menu>
+<menu id="24"><phrase id="menutext" value="subject"/>
+</menu>
+<menu id="25"><phrase id="menutext" value="teacher"/>
+</menu>
+<menu id="26"><phrase id="menutext" value="teacherroutine"/>
+</menu>
+<menu id="27"><phrase id="menutext" value="totalexpense"/>
+</menu>
+<menu id="28"><phrase id="menutext" value="totalinvoice"/>
+</menu>
+<menu id="29"><phrase id="menutext" value="transport"/>
+</menu>
+<menu id="30"><phrase id="menutext" value="توزيع حصص المدرسين"/>
+</menu>
+<table id="admin"><phrase id="tblcaption" value="admin"/>
+<field id="admin_id"><phrase id="fldcaption" value="admin id"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="email"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="password"/>
+</field>
+<field id="level"><phrase id="fldcaption" value="level"/>
+</field>
+<field id="authentication_key"><phrase id="fldcaption" value="authentication key"/>
+</field>
+</table>
+<table id="attendance"><phrase id="tblcaption" value="attendance"/>
+<field id="attendance_id"><phrase id="fldcaption" value="attendance id"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="student_id"><phrase id="fldcaption" value="student id"/>
+</field>
+<field id="date"><phrase id="fldcaption" value="date"/>
+</field>
+</table>
+<table id="book"><phrase id="tblcaption" value="book"/>
+<field id="book_id"><phrase id="fldcaption" value="book id"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="description"/>
+</field>
+<field id="author"><phrase id="fldcaption" value="author"/>
+</field>
+<field id="class_id"><phrase id="fldcaption" value="class id"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="price"><phrase id="fldcaption" value="price"/>
+</field>
+</table>
+<table id="ci_sessions"><phrase id="tblcaption" value="ci sessions"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="ip_address"><phrase id="fldcaption" value="ip address"/>
+</field>
+<field id="timestamp"><phrase id="fldcaption" value="timestamp"/>
+</field>
+<field id="data"><phrase id="fldcaption" value="data"/>
+</field>
+</table>
+<table id="class"><phrase id="tblcaption" value="class"/>
+<field id="class_id"><phrase id="fldcaption" value="class id"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="name_numeric"><phrase id="fldcaption" value="name numeric"/>
+</field>
+<field id="teacher_id"><phrase id="fldcaption" value="teacher id"/>
+</field>
+</table>
+<table id="class_routine"><phrase id="tblcaption" value="class routine"/>
+<field id="class_routine_id"><phrase id="fldcaption" value="class routine id"/>
+</field>
+<field id="class_id"><phrase id="fldcaption" value="class id"/>
+</field>
+<field id="subject_id"><phrase id="fldcaption" value="subject id"/>
+</field>
+<field id="time_start"><phrase id="fldcaption" value="time start"/>
+</field>
+<field id="time_end"><phrase id="fldcaption" value="time end"/>
+</field>
+<field id="time_start_min"><phrase id="fldcaption" value="time start min"/>
+</field>
+<field id="time_end_min"><phrase id="fldcaption" value="time end min"/>
+</field>
+<field id="day"><phrase id="fldcaption" value="day"/>
+</field>
+</table>
+<table id="document"><phrase id="tblcaption" value="document"/>
+<field id="document_id"><phrase id="fldcaption" value="document id"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="title"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="description"/>
+</field>
+<field id="file_name"><phrase id="fldcaption" value="file name"/>
+</field>
+<field id="file_type"><phrase id="fldcaption" value="file type"/>
+</field>
+<field id="class_id"><phrase id="fldcaption" value="class id"/>
+</field>
+<field id="teacher_id"><phrase id="fldcaption" value="teacher id"/>
+</field>
+<field id="timestamp"><phrase id="fldcaption" value="timestamp"/>
+</field>
+</table>
+<table id="dormitory"><phrase id="tblcaption" value="dormitory"/>
+<field id="dormitory_id"><phrase id="fldcaption" value="dormitory id"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="number_of_room"><phrase id="fldcaption" value="number of room"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="description"/>
+</field>
+</table>
+<table id="exam"><phrase id="tblcaption" value="exam"/>
+<field id="exam_id"><phrase id="fldcaption" value="exam id"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="date"><phrase id="fldcaption" value="date"/>
+</field>
+<field id="comment"><phrase id="fldcaption" value="comment"/>
+</field>
+</table>
+<table id="exam_routine"><phrase id="tblcaption" value="exam routine"/>
+<field id="class_routine_id"><phrase id="fldcaption" value="class routine id"/>
+</field>
+<field id="class_id"><phrase id="fldcaption" value="class id"/>
+</field>
+<field id="subject_id"><phrase id="fldcaption" value="subject id"/>
+</field>
+<field id="time_start"><phrase id="fldcaption" value="time start"/>
+</field>
+<field id="time_end"><phrase id="fldcaption" value="time end"/>
+</field>
+<field id="time_start_min"><phrase id="fldcaption" value="time start min"/>
+</field>
+<field id="time_end_min"><phrase id="fldcaption" value="time end min"/>
+</field>
+<field id="day"><phrase id="fldcaption" value="day"/>
+</field>
+<field id="date"><phrase id="fldcaption" value="date"/>
+</field>
+</table>
+<table id="expense_category"><phrase id="tblcaption" value="expense category"/>
+<field id="expense_category_id"><phrase id="fldcaption" value="expense category id"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+</table>
+<table id="grade"><phrase id="tblcaption" value="grade"/>
+<field id="grade_id"><phrase id="fldcaption" value="grade id"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="grade_point"><phrase id="fldcaption" value="grade point"/>
+</field>
+<field id="mark_from"><phrase id="fldcaption" value="mark from"/>
+</field>
+<field id="mark_upto"><phrase id="fldcaption" value="mark upto"/>
+</field>
+<field id="comment"><phrase id="fldcaption" value="comment"/>
+</field>
+</table>
+<table id="invoice"><phrase id="tblcaption" value="invoice"/>
+<field id="invoice_id"><phrase id="fldcaption" value="invoice id"/>
+</field>
+<field id="student_id"><phrase id="fldcaption" value="student id"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="title"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="description"/>
+</field>
+<field id="amount"><phrase id="fldcaption" value="amount"/>
+</field>
+<field id="amount_paid"><phrase id="fldcaption" value="amount paid"/>
+</field>
+<field id="due"><phrase id="fldcaption" value="due"/>
+</field>
+<field id="creation_timestamp"><phrase id="fldcaption" value="creation timestamp"/>
+</field>
+<field id="payment_timestamp"><phrase id="fldcaption" value="payment timestamp"/>
+</field>
+<field id="payment_method"><phrase id="fldcaption" value="payment method"/>
+</field>
+<field id="payment_details"><phrase id="fldcaption" value="payment details"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+</table>
+<table id="language"><phrase id="tblcaption" value="language"/>
+<field id="phrase_id"><phrase id="fldcaption" value="phrase id"/>
+</field>
+<field id="phrase"><phrase id="fldcaption" value="phrase"/>
+</field>
+<field id="english"><phrase id="fldcaption" value="english"/>
+</field>
+<field id="bengali"><phrase id="fldcaption" value="bengali"/>
+</field>
+<field id="spanish"><phrase id="fldcaption" value="spanish"/>
+</field>
+<field id="arabic"><phrase id="fldcaption" value="arabic"/>
+</field>
+<field id="dutch"><phrase id="fldcaption" value="dutch"/>
+</field>
+<field id="russian"><phrase id="fldcaption" value="russian"/>
+</field>
+<field id="chinese"><phrase id="fldcaption" value="chinese"/>
+</field>
+<field id="column_10"><phrase id="fldcaption" value="Column 10"/>
+</field>
+<field id="turkish"><phrase id="fldcaption" value="turkish"/>
+</field>
+<field id="portuguese"><phrase id="fldcaption" value="portuguese"/>
+</field>
+<field id="hungarian"><phrase id="fldcaption" value="hungarian"/>
+</field>
+<field id="french"><phrase id="fldcaption" value="french"/>
+</field>
+<field id="greek"><phrase id="fldcaption" value="greek"/>
+</field>
+<field id="german"><phrase id="fldcaption" value="german"/>
+</field>
+<field id="italian"><phrase id="fldcaption" value="italian"/>
+</field>
+<field id="thai"><phrase id="fldcaption" value="thai"/>
+</field>
+<field id="urdu"><phrase id="fldcaption" value="urdu"/>
+</field>
+<field id="hindi"><phrase id="fldcaption" value="hindi"/>
+</field>
+<field id="latin"><phrase id="fldcaption" value="latin"/>
+</field>
+<field id="indonesian"><phrase id="fldcaption" value="indonesian"/>
+</field>
+<field id="japanese"><phrase id="fldcaption" value="japanese"/>
+</field>
+<field id="korean"><phrase id="fldcaption" value="korean"/>
+</field>
+</table>
+<table id="mark"><phrase id="tblcaption" value="mark"/>
+<field id="mark_id"><phrase id="fldcaption" value="mark id"/>
+</field>
+<field id="student_id"><phrase id="fldcaption" value="student id"/>
+</field>
+<field id="subject_id"><phrase id="fldcaption" value="subject id"/>
+</field>
+<field id="class_id"><phrase id="fldcaption" value="class id"/>
+</field>
+<field id="exam_id"><phrase id="fldcaption" value="exam id"/>
+</field>
+<field id="mark_obtained"><phrase id="fldcaption" value="mark obtained"/>
+</field>
+<field id="mark_total"><phrase id="fldcaption" value="mark total"/>
+</field>
+<field id="comment"><phrase id="fldcaption" value="comment"/>
+</field>
+</table>
+<table id="message"><phrase id="tblcaption" value="message"/>
+<field id="message_id"><phrase id="fldcaption" value="message id"/>
+</field>
+<field id="message_thread_code"><phrase id="fldcaption" value="message thread code"/>
+</field>
+<field id="message"><phrase id="fldcaption" value="message"/>
+</field>
+<field id="sender"><phrase id="fldcaption" value="sender"/>
+</field>
+<field id="timestamp"><phrase id="fldcaption" value="timestamp"/>
+</field>
+<field id="read_status"><phrase id="fldcaption" value="read status"/>
+</field>
+</table>
+<table id="message_thread"><phrase id="tblcaption" value="message thread"/>
+<field id="message_thread_id"><phrase id="fldcaption" value="message thread id"/>
+</field>
+<field id="message_thread_code"><phrase id="fldcaption" value="message thread code"/>
+</field>
+<field id="sender"><phrase id="fldcaption" value="sender"/>
+</field>
+<field id="reciever"><phrase id="fldcaption" value="reciever"/>
+</field>
+<field id="last_message_timestamp"><phrase id="fldcaption" value="last message timestamp"/>
+</field>
+</table>
+<table id="noticeboard"><phrase id="tblcaption" value="noticeboard"/>
+<field id="notice_id"><phrase id="fldcaption" value="notice id"/>
+</field>
+<field id="notice_title"><phrase id="fldcaption" value="notice title"/>
+</field>
+<field id="notice"><phrase id="fldcaption" value="notice"/>
+</field>
+<field id="create_timestamp"><phrase id="fldcaption" value="create timestamp"/>
+</field>
+</table>
+<table id="parent"><phrase id="tblcaption" value="parent"/>
+<field id="parent_id"><phrase id="fldcaption" value="parent id"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="email"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="password"/>
+</field>
+<field id="phone"><phrase id="fldcaption" value="phone"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="address"/>
+</field>
+<field id="profession"><phrase id="fldcaption" value="profession"/>
+</field>
+<field id="authentication_key"><phrase id="fldcaption" value="authentication key"/>
+</field>
+</table>
+<table id="payment"><phrase id="tblcaption" value="payment"/>
+<field id="payment_id"><phrase id="fldcaption" value="payment id"/>
+</field>
+<field id="expense_category_id"><phrase id="fldcaption" value="expense category id"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="title"/>
+</field>
+<field id="payment_type"><phrase id="fldcaption" value="payment type"/>
+</field>
+<field id="invoice_id"><phrase id="fldcaption" value="invoice id"/>
+</field>
+<field id="student_id"><phrase id="fldcaption" value="student id"/>
+</field>
+<field id="method"><phrase id="fldcaption" value="method"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="description"/>
+</field>
+<field id="amount"><phrase id="fldcaption" value="amount"/>
+</field>
+<field id="timestamp"><phrase id="fldcaption" value="timestamp"/>
+</field>
+</table>
+<table id="section"><phrase id="tblcaption" value="section"/>
+<field id="section_id"><phrase id="fldcaption" value="section id"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="nick_name"><phrase id="fldcaption" value="nick name"/>
+</field>
+<field id="class_id"><phrase id="fldcaption" value="class id"/>
+</field>
+<field id="teacher_id"><phrase id="fldcaption" value="teacher id"/>
+</field>
+</table>
+<table id="settings"><phrase id="tblcaption" value="settings"/>
+<field id="settings_id"><phrase id="fldcaption" value="settings id"/>
+</field>
+<field id="type"><phrase id="fldcaption" value="type"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="description"/>
+</field>
+</table>
+<table id="student"><phrase id="tblcaption" value="student"/>
+<field id="student_id"><phrase id="fldcaption" value="student id"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="birthday"><phrase id="fldcaption" value="birthday"/>
+</field>
+<field id="sex"><phrase id="fldcaption" value="sex"/>
+</field>
+<field id="religion"><phrase id="fldcaption" value="religion"/>
+</field>
+<field id="blood_group"><phrase id="fldcaption" value="blood group"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="address"/>
+</field>
+<field id="phone"><phrase id="fldcaption" value="phone"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="email"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="password"/>
+</field>
+<field id="father_name"><phrase id="fldcaption" value="father name"/>
+</field>
+<field id="mother_name"><phrase id="fldcaption" value="mother name"/>
+</field>
+<field id="class_id"><phrase id="fldcaption" value="class id"/>
+</field>
+<field id="section_id"><phrase id="fldcaption" value="section id"/>
+</field>
+<field id="parent_id"><phrase id="fldcaption" value="parent id"/>
+</field>
+<field id="roll"><phrase id="fldcaption" value="roll"/>
+</field>
+<field id="transport_id"><phrase id="fldcaption" value="transport id"/>
+</field>
+<field id="dormitory_id"><phrase id="fldcaption" value="dormitory id"/>
+</field>
+<field id="dormitory_room_number"><phrase id="fldcaption" value="dormitory room number"/>
+</field>
+<field id="authentication_key"><phrase id="fldcaption" value="authentication key"/>
+</field>
+</table>
+<table id="subject"><phrase id="tblcaption" value="subject"/>
+<field id="subject_id"><phrase id="fldcaption" value="subject id"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="class_id"><phrase id="fldcaption" value="class id"/>
+</field>
+<field id="teacher_id"><phrase id="fldcaption" value="teacher id"/>
+</field>
+</table>
+<table id="teacher"><phrase id="tblcaption" value="teacher"/>
+<field id="teacher_id"><phrase id="fldcaption" value="teacher id"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="birthday"><phrase id="fldcaption" value="birthday"/>
+</field>
+<field id="sex"><phrase id="fldcaption" value="sex"/>
+</field>
+<field id="religion"><phrase id="fldcaption" value="religion"/>
+</field>
+<field id="blood_group"><phrase id="fldcaption" value="blood group"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="address"/>
+</field>
+<field id="phone"><phrase id="fldcaption" value="phone"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="email"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="password"/>
+</field>
+<field id="authentication_key"><phrase id="fldcaption" value="authentication key"/>
+</field>
+</table>
+<table id="teacherroutine"><phrase id="tblcaption" value="teacherroutine"/>
+<field id="teachername"><phrase id="fldcaption" value="teachername"/>
+</field>
+<field id="subjectname"><phrase id="fldcaption" value="subjectname"/>
+</field>
+<field id="classname"><phrase id="fldcaption" value="classname"/>
+</field>
+<field id="day"><phrase id="fldcaption" value="day"/>
+</field>
+<field id="time_start"><phrase id="fldcaption" value="time start"/>
+</field>
+<field id="time_start_min"><phrase id="fldcaption" value="time start min"/>
+</field>
+<field id="time_end"><phrase id="fldcaption" value="time end"/>
+</field>
+<field id="time_end_min"><phrase id="fldcaption" value="time end min"/>
+</field>
+<field id="subject_id"><phrase id="fldcaption" value="subject id"/>
+</field>
+</table>
+<table id="totalexpense"><phrase id="tblcaption" value="totalexpense"/>
+<field id="amount"><phrase id="fldcaption" value="amount"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+</table>
+<table id="totalinvoice"><phrase id="tblcaption" value="totalinvoice"/>
+<field id="amount"><phrase id="fldcaption" value="amount"/>
+</field>
+<field id="amount_paid"><phrase id="fldcaption" value="amount paid"/>
+</field>
+<field id="due"><phrase id="fldcaption" value="due"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="title"/>
+</field>
+</table>
+<table id="transport"><phrase id="tblcaption" value="transport"/>
+<field id="transport_id"><phrase id="fldcaption" value="transport id"/>
+</field>
+<field id="route_name"><phrase id="fldcaption" value="route name"/>
+</field>
+<field id="number_of_vehicle"><phrase id="fldcaption" value="number of vehicle"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="description"/>
+</field>
+<field id="route_fare"><phrase id="fldcaption" value="route fare"/>
+</field>
+</table>
+<table id="_62a64863264a639_62d635635_62764464562f63163364a646"><phrase id="tblcaption" value="توزيع حصص المدرسين"/>
+<field id="teachername"><phrase id="fldcaption" value="المدرس"/>
+</field>
+<field id="subjectname"><phrase id="fldcaption" value="المادة"/>
+</field>
+<field id="classname"><phrase id="fldcaption" value="الفصل"/>
+</field>
+<field id="day"><phrase id="fldcaption" value="اليوم"/>
+</field>
+<field id="time_start"><phrase id="fldcaption" value="البداية سعت"/>
+</field>
+<field id="time_start_min"><phrase id="fldcaption" value="دقبقة"/>
+</field>
+<field id="time_end"><phrase id="fldcaption" value="النهاية سعت"/>
+</field>
+<field id="time_end_min"><phrase id="fldcaption" value="دقيقة"/>
+</field>
+<field id="subject_id"><phrase id="fldcaption" value="subject id"/>
+</field>
+</table>
+</project>
+</ew-language>

@@ -1,0 +1,102 @@
+<manifest alg="2" build="2015.2.0.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="WebApp.com" resolutions="1x" timestamp="1478509094472">
+  <folder name="css">
+    <file name="site_global.css" crc="481904878"/>
+    <file name="index.css" crc="98030069" ref="index"/>
+    <file name="iefonts_index.css" crc="4049102410" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="312386352" ref="phone>index:tablet>index:index"/>
+    <file name="museutils.js" crc="4155826306" ref="phone>index:tablet>index:index"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:tablet>index:index"/>
+    <file name="museconfig.js" crc="328327953" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.watch.js" crc="117772946" ref="phone>index:tablet>index:index"/>
+    <file name="require.js" crc="228336483" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.musemenu.js" crc="3765356681" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="webpro.js" crc="4078243563" ref="index"/>
+    <file name="musewpslideshow.js" crc="4115829919" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="3936724022" ref="index"/>
+    <file name="touchswipe.js" crc="157639107" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4034513494" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="4069228690" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="logo.png" crc="4137911352" seo="true" ref="index"/>
+    <file name="green-bg.jpg" crc="3979732196" ref="index"/>
+    <file name="u106-8.png" crc="3764626784" ref="index"/>
+    <file name="u227-8.png" crc="4148472719" ref="index"/>
+    <file name="design-web.svg" crc="3977633382" seo="true" ref="index"/>
+    <file name="design web_poster_.png" crc="99642232" ref="index"/>
+    <file name="u236-4.png" crc="464195096" ref="index"/>
+    <file name="pasted-svg-127791x166.svg" crc="79464558" seo="true" ref="index"/>
+    <file name="pasted svg 127791x166_poster_.png" crc="3833235916" ref="index"/>
+    <file name="pasted-svg-141856x146.svg" crc="169062566" seo="true" ref="index"/>
+    <file name="pasted svg 141856x146_poster_.png" crc="402401708" ref="index"/>
+    <file name="pasted-svg-124348x126.svg" crc="226876812" seo="true" ref="index"/>
+    <file name="pasted svg 124348x126_poster_.png" crc="4278622291" ref="index"/>
+    <file name="pasted-svg-174087x176.svg" crc="3978021470" seo="true" ref="index"/>
+    <file name="pasted svg 174087x176_poster_.png" crc="163698277" ref="index"/>
+    <file name="u278-4.png" crc="3987153987" ref="index"/>
+    <file name="u314-14.png" crc="100855160" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="u6144.png" crc="4080807851" ref="index"/>
+    <file name="u6144-r.png" crc="4144866924" ref="index"/>
+    <file name="u282-4.png" crc="319033022" ref="index"/>
+    <file name="u318-13.png" crc="3803309112" ref="index"/>
+    <file name="u6135.png" crc="4080807851" ref="index"/>
+    <file name="u6135-r.png" crc="4144866924" ref="index"/>
+    <file name="u276-4.png" crc="407647054" ref="index"/>
+    <file name="u268-19.png" crc="3980897630" ref="index"/>
+    <file name="u280-4.png" crc="4160529779" ref="index"/>
+    <file name="u316-17.png" crc="263505627" ref="index"/>
+    <file name="u6138.png" crc="4080807851" ref="index"/>
+    <file name="u6138-r.png" crc="4144866924" ref="index"/>
+    <file name="u6150.png" crc="4080807851" ref="index"/>
+    <file name="u6150-r.png" crc="4144866924" ref="index"/>
+    <file name="u5043-4.png" crc="4285027511" ref="index"/>
+    <file name="u5069-11.png" crc="3895847851" ref="index"/>
+    <file name="u6077-4.png" crc="181926733" ref="index"/>
+    <file name="u6089-4.png" crc="3816878261" ref="index"/>
+    <file name="u6086-4.png" crc="277107763" ref="index"/>
+    <file name="shap-computer.svg" crc="325519033" seo="true" ref="index"/>
+    <file name="shap computer_poster_.png" crc="3888504017" ref="index"/>
+    <file name="u5075-4.png" crc="264758055" ref="index"/>
+    <file name="u6092-4.png" crc="4140317412" ref="index"/>
+    <file name="u5218-3.png" crc="3943759758" ref="index"/>
+    <file name="u5264-13.png" crc="4148728061" ref="index"/>
+    <file name="shap-computer3.svg" crc="3839871480" seo="true" ref="index"/>
+    <file name="shap computer3_poster_.png" crc="4266656761" ref="index"/>
+    <file name="u5261-4.png" crc="4030848365" ref="index"/>
+    <file name="u5310-4.png" crc="449906533" ref="index"/>
+    <file name="testimonials.png" crc="4083760234" seo="true" ref="index"/>
+    <file name="u5311-12.png" crc="394899772" ref="index"/>
+    <file name="u4198-4.png" crc="240249028" ref="index"/>
+    <file name="u4197-11.png" crc="4198729709" ref="index"/>
+    <file name="u5286-4.png" crc="4281877807" ref="index"/>
+    <file name="u5287-16.png" crc="4271425291" ref="index"/>
+    <file name="purple-bg.jpg" crc="4163203910" ref="index"/>
+    <file name="u887-4.png" crc="351743037" ref="index"/>
+    <file name="icon_email.png" crc="4272712430" seo="true" ref="index"/>
+    <file name="phon.png" crc="362728548" seo="true" ref="index"/>
+    <file name="signup.png" crc="90537987" seo="true" ref="index"/>
+    <file name="face-u5842-r-fr.png" crc="301324523" ref="index"/>
+    <file name="face_2.png" crc="387407583" seo="true" ref="index"/>
+    <file name="twetter_2.png" crc="428360728" seo="true" ref="index"/>
+    <file name="you_2.png" crc="217287698" seo="true" ref="index"/>
+    <file name="mail.png" crc="3943907327" seo="true" ref="index"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="index.css" crc="4046498137" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="3838464675" seo="true" mt="1407282716505" redirect="false"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="263663261" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="4162255504" seo="true" mt="1407282697538" redirect="false"/>
+  </folder>
+  <file name="index.html" crc="326598324" seo="true" mt="1478507428630" redirect="true"/>
+</manifest>
